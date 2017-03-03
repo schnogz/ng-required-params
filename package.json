@@ -1,0 +1,40 @@
+{
+  "name": "ng-required-params",
+  "version": "0.0.1",
+  "description": "A simple way to enforce required method parameters in angular.",
+  "license": "MIT",
+  "author": {
+    "name": "Andrew Schneider",
+    "email": "andrew.mark.schneider@gmail.com",
+    "url": "https://github.com/schnogz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schnogz/ng-required-params"
+  },
+  "bugs": {
+    "url": "https://github.com/schnogz/ng-required-paramsr/issues"
+  },
+  "main": "ng-required-params.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start",
+    "build": ""
+  },
+  "keywords": [
+    "angular",
+    "required parameters",
+    "default parameters",
+    "es6"
+  ],
+  "peerDependencies": {
+    "angular": "^1.5.11"
+  },
+  "devDependencies": {
+    "babel-cli": "~6.23.0",
+    "jasmine-core": "~2.5.2",
+    "karma": "~1.5.0",
+    "karma-chrome-launcher": "~2.0.0",
+    "karma-coverage": "~1.1.1",
+    "karma-jasmine": "~1.1.0"
+  }
+}
