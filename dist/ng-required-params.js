@@ -14,6 +14,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   return angular.module('ng-required-params', []).factory('ngRequired', function () {
     return function (param) {
       throw new Error('Missing required parameter: ' + param);
+      //hel
     };
   });
 });

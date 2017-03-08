@@ -10,7 +10,7 @@
   return angular.module('ng-required-params', [])
     .factory('ngRequired', function () {
       return param => {
-        throw new Error(`Missing required parameter: ${param}`)
+        throw new Error(`Missing required parameter: ${param}`);
       };
     })
 }));
