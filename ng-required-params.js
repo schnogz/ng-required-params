@@ -1,5 +1,4 @@
 (function (root, factory) {
-  /* istanbul ignore next */
   if (typeof define === 'function' && define.amd) {
     define(['angular'], factory);
   } else if (typeof module === 'object' && module.exports) {
@@ -9,14 +8,10 @@
   }
 }(this, function (angular) {
   return angular.module('ng-required-params', [])
-    .factory('param', function () {
+    .factory('required', function () {
 
-      const throwIfMissing = p => {
-        throw new Error(`Missing parameter: ${p}`)
-      };
-
-      return {
-        required: throwIfMissing
+      return param => {
+        throw new Error(`Missing required parameter: ${param}`)
       };
     })
 }));
