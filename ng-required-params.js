@@ -8,8 +8,7 @@
   }
 }(this, function (angular) {
   return angular.module('ng-required-params', [])
-    .factory('required', function () {
-
+    .factory('ngRequired', function () {
       return param => {
         throw new Error(`Missing required parameter: ${param}`)
       };
