@@ -6,7 +6,7 @@
   } else {
     root.requiredParams = factory(root.angular);
   }
-}(this, function (angular) {
+}(window, function (angular) {
   return angular.module('ng-required-params', [])
     .factory('ngRequired', function () {
       return param => {

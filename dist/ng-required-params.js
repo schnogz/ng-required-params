@@ -10,11 +10,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
   } else {
     root.requiredParams = factory(root.angular);
   }
-})(undefined, function (angular) {
+})(window, function (angular) {
   return angular.module('ng-required-params', []).factory('ngRequired', function () {
     return function (param) {
       throw new Error('Missing required parameter: ' + param);
-      //hel
     };
   });
 });
