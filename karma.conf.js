@@ -5,7 +5,7 @@ module.exports = function(config) {
     files: [
       'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.js',
       'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-mocks.js',
-      'src/ng-required-params.js',
+      'dist/ng-required-params.js',
       'src/ng-required-params.spec.js'
     ],
     exclude: [],
