@@ -1,4 +1,7 @@
 # ng-required-params
+
+[![Build Status](https://travis-ci.org/schnogz/ng-required-params.svg?branch=master)](https://travis-ci.org/schnogz/ng-required-params)
+
 A tiny angular module that enforces required parameters on function calls by utilizing ES6 default parameters.
 
 ## Install
