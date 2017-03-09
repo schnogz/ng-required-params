@@ -8,11 +8,9 @@ module.exports = function(config) {
       'dist/ng-required-params.js',
       'src/ng-required-params.spec.js'
     ],
-    exclude: [],
     reporters: ['progress', 'coverage'],
     coverageReporter: {
       reporters: [
-        { type:'lcovonly', subdir: '.' },
         { type:'json', subdir: '.' }
       ]
     },

@@ -15,3 +15,6 @@ jspm_packages
 
 # IDE
 .idea
+
+# OS
+.DS_Store
