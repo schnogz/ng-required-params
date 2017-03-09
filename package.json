@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schnogz/ng-required-params"
+    "url": "https://github.com/schnogz/ng-required-params.git"
   },
   "bugs": {
     "url": "https://github.com/schnogz/ng-required-paramsr/issues"

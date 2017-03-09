@@ -1,15 +1,23 @@
 {
   "name": "ng-required-params",
-  "version": "0.1.0",
   "authors": [
     "Andrew Schneider <andrew.mark.schneider@gmail.com>"
   ],
   "main": "dist/ng-required-params.js",
   "description": "Enforce required method parameters in angular",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schnogz/ng-required-params.git"
+  },
   "license": "MIT",
   "dependencies": {
     "angular": "*"
   },
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
   "keywords": [
     "angular",
     "required parameters",
