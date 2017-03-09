@@ -1,5 +1,5 @@
 module.exports = function(config) {
-  config.set({
+  var configObj = {
     basePath: '',
     frameworks: ['jasmine'],
     files: [
@@ -10,20 +10,32 @@ module.exports = function(config) {
     ],
     exclude: [],
     reporters: ['progress', 'coverage'],
+    coverageReporter: {
+      type : 'html',
+      dir : 'coverage/'
+    },
     preprocessors: {
       'src/ng-required-params.js': ['coverage']
     },
-    coverageReporter: {
-      type: 'lcov',
-      dir : 'coverage/'
-    },
-    port: 9876,
-    runnerPort: 9100,
+    port: 8004,
+    runnerPort: 8003,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: false,
     browsers: ['Chrome'],
+    customLaunchers: {
+      Chrome_Travis_CI: {
+        base: 'Chromium',
+        flags: ['--no-sandbox']
+      }
+    },
     captureTimeout: 10000,
     singleRun: true
-  });
+  };
+
+  if (process.env.TRAVIS) {
+    configObj.browsers = ['Chrome_Travis_CI'];
+  }
+
+  config.set(configObj);
 };
