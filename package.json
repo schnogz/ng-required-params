@@ -18,7 +18,8 @@
   "main": "dist/ng-required-params.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start",
-    "build": "babel ./src/ng-required-params.js --out-file ./dist/ng-required-params.js"
+    "build": "babel ./src/ng-required-params.js --out-file ./dist/ng-required-params.js",
+    "report-coverage": "codecov"
   },
   "keywords": [
     "angular",
@@ -32,6 +33,7 @@
   "devDependencies": {
     "babel-cli": "~6.23.0",
     "babel-preset-es2015": "^6.22.0",
+    "codecov": "^1.0.1",
     "jasmine-core": "~2.5.2",
     "karma": "~1.5.0",
     "karma-chrome-launcher": "~2.0.0",

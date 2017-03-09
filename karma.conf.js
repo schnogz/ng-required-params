@@ -11,8 +11,10 @@ module.exports = function(config) {
     exclude: [],
     reporters: ['progress', 'coverage'],
     coverageReporter: {
-      type : 'html',
-      dir : 'coverage/'
+      reporters: [
+        { type:'lcovonly', subdir: '.' },
+        { type:'json', subdir: '.' }
+      ]
     },
     preprocessors: {
       'src/ng-required-params.js': ['coverage']
