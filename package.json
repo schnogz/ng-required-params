@@ -1,7 +1,7 @@
 {
   "name": "ng-required-params",
   "version": "0.1.0",
-  "description": "A simple way to enforce required method parameters in angular.",
+  "description": "Enforce required method parameters in angular",
   "license": "MIT",
   "author": {
     "name": "Andrew Schneider",
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/schnogz/ng-required-paramsr/issues"
   },
-  "main": "ng-required-params.js",
+  "main": "dist/ng-required-params.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start",
     "build": "babel ./src/ng-required-params.js --out-file ./dist/ng-required-params.js"

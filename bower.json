@@ -1,0 +1,30 @@
+{
+  "name": "ng-required-params",
+  "version": "0.1.0",
+  "authors": [
+    "Andrew Schneider <andrew.mark.schneider@gmail.com>"
+  ],
+  "main": "dist/ng-required-params.js",
+  "description": "Enforce required method parameters in angular",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "*"
+  },
+  "keywords": [
+    "angular",
+    "required parameters",
+    "default parameters",
+    "es6"
+  ],
+  "ignore": [
+    ".gitignore",
+    ".babelrc",
+    "node_modules",
+    ".editorconfig",
+    "bower.json",
+    "karma.conf.js",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ]
+}
