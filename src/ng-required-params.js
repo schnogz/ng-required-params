@@ -4,7 +4,7 @@
   } else if (typeof module === 'object' && module.exports) {
     module.exports = factory(require('angular'));
   } else {
-    root.requiredParams = factory(root.angular);
+    root.ngRequiredParams = factory(root.angular);
   }
 }(window, function (angular) {
   return angular.module('ng-required-params', [])
