@@ -19,11 +19,10 @@ module.exports = function(config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: false,
-    browsers: ['Chrome'],
+    browsers: ['Firefox'],
     customLaunchers: {
       Chrome_Travis_CI: {
-        base: 'Chromium',
-        flags: ['--no-sandbox']
+        base: 'Firefox'
       }
     },
     captureTimeout: 10000,
