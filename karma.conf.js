@@ -3,6 +3,7 @@ module.exports = function(config) {
     basePath: '',
     frameworks: ['jasmine'],
     files: [
+      'http://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.3/es6-shim.js',
       'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.js',
       'http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-mocks.js',
       'dist/ng-required-params.js',
