@@ -1,6 +1,6 @@
 {
   "name": "ng-required-params",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Enforce required method parameters in angular",
   "license": "MIT",
   "author": {
