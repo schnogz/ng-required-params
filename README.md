@@ -24,19 +24,21 @@ $ bower install ng-required-params --save
 Simply require `ng-required-params` as a dependency for your app or any angular module.
 
 ```javascript
-angular.module('MyApp', ['ng-required-params'])
+angular
+  .module('MyApp', ['ng-required-params'])
   .controller('MyController', ['$scope', 'ngRequired', function ($scope, ngRequired) {
-      $scope.incrementCounter = (counter = ngRequired`counter`) => {
-      	return counter++;
-      };
+    $scope.incrementCounter = (counter = ngRequired`counter`) => {
+      console.log('Current count: ' + counter++);
+    };
       
-      $scope.incrementCounter(); // ==> Error: Missing parameter: counter
-  }]);
+    $scope.incrementCounter(5); // Logs ==> Current count: 6
+    $scope.incrementCounter();  // Error ==> Missing parameter: counter
+}]);
 ```
 Since required parameters are fundamental and may be often used, it makes sense to make the call to the service as short 
 and easy-to-type as possible.  Therefore it is recommended to use template literal syntax `foo´string´` for calling 
-`ngRequired` instead of the normal round brackets syntax `foo('string')`. You may also want to import the module as
-`ngReg` or `req` instead of `ngRequired` to save more keystrokes.
+ngRequired instead of the normal round brackets syntax `foo('string')`. You may also want to name the imported module as
+"ngReg" or "req" instead of "ngRequired" to save even more keystrokes.
 
 ### Use with a module loader
 
