@@ -1,5 +1,5 @@
 module.exports = function(config) {
-  var configObj = {
+  config.set({
     basePath: '',
     frameworks: ['jasmine'],
     files: [
@@ -20,18 +20,7 @@ module.exports = function(config) {
     logLevel: config.LOG_INFO,
     autoWatch: false,
     browsers: ['Firefox'],
-    customLaunchers: {
-      Chrome_Travis_CI: {
-        base: 'Firefox'
-      }
-    },
     captureTimeout: 10000,
     singleRun: true
-  };
-
-  if (process.env.TRAVIS) {
-    configObj.browsers = ['Chrome_Travis_CI'];
-  }
-
-  config.set(configObj);
+  })
 };
