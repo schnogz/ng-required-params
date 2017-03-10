@@ -10,9 +10,6 @@
     "url": "https://github.com/schnogz/ng-required-params.git"
   },
   "license": "MIT",
-  "dependencies": {
-    "angular": "*"
-  },
   "moduleType": [
     "amd",
     "es6",
@@ -27,12 +24,11 @@
   "ignore": [
     ".gitignore",
     ".babelrc",
-    "node_modules",
     ".editorconfig",
-    "bower.json",
+    ".npmignore",
+    ".travis.yml",
+    "node_modules",
     "karma.conf.js",
-    "LICENSE",
-    "package.json",
-    "README.md"
+    "package.json"
   ]
 }
