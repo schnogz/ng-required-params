@@ -3,3 +3,5 @@
 .editorconfig
 .babelrc
 karma.conf.js
+test
+coverage
