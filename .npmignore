@@ -1,0 +1,5 @@
+.travis.yml
+.idea
+.editorconfig
+.babelrc
+karma.conf.js
