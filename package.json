@@ -43,5 +43,8 @@
     "karma-coverage": "1.1.1",
     "karma-firefox-launcher": "1.0.1",
     "karma-jasmine": "1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.0.0"
   }
 }
