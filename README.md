@@ -1,5 +1,5 @@
 # ng-required-params
-
+[![NPM Version](https://badge.fury.io/js/ng-required-params.svg)](https://badge.fury.io/js/ng-required-params)
 [![Build Status](https://travis-ci.org/schnogz/ng-required-params.svg?branch=master)](https://travis-ci.org/schnogz/ng-required-params)
 [![Dependencies](https://david-dm.org/schnogz/ng-required-params.svg)](https://david-dm.org/schnogz/ng-required-params.svg)
 [![Code Coverage](https://codecov.io/gh/schnogz/ng-required-params/branch/master/graph/badge.svg)](https://codecov.io/gh/schnogz/ng-required-params)
