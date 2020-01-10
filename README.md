@@ -1,8 +1,6 @@
 # ng-required-params
 [![NPM Version](https://badge.fury.io/js/ng-required-params.svg)](https://badge.fury.io/js/ng-required-params)
-[![Build Status](https://travis-ci.org/schnogz/ng-required-params.svg?branch=master)](https://travis-ci.org/schnogz/ng-required-params)
 [![Dependencies](https://david-dm.org/schnogz/ng-required-params.svg)](https://david-dm.org/schnogz/ng-required-params.svg)
-[![Code Coverage](https://codecov.io/gh/schnogz/ng-required-params/branch/master/graph/badge.svg)](https://codecov.io/gh/schnogz/ng-required-params)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/schnogz/ng-required-params/issues)
 
 A tiny angular module that enforces required parameters on function calls by utilizing ES6 default parameters.
