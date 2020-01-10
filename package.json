@@ -1,5 +1,5 @@
 {
-  "name": "ng-required-params",
+  "name": "@schnogz/ng-required-params",
   "version": "0.2.0",
   "description": "Enforce required method parameters in angular",
   "license": "MIT",
@@ -8,14 +8,14 @@
     "email": "andrew.mark.schneider@gmail.com",
     "url": "https://github.com/schnogz"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/schnogz/ng-required-params.git"
-  },
+  "repository": "https://github.com/schnogz/ng-required-params.git",
   "bugs": {
     "url": "https://github.com/schnogz/ng-required-params/issues"
   },
   "main": "dist/ng-required-params.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/eslint eslint ./src/ng-required-params.js",
     "test": "npm run lint && ./node_modules/.bin/istanbul cover ./node_modules/karma/bin/karma start",
